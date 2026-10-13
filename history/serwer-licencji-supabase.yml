@@ -1,7 +1,7 @@
 url: https://vquompeipxgkakdkhntv.supabase.co/functions/v1/health
-status: up
-code: 200
-responseTime: 1452
-lastUpdated: 2026-10-13T03:14:57.783Z
+status: down
+code: 503
+responseTime: 1041
+lastUpdated: 2026-10-13T03:21:57.545Z
 startTime: 2026-10-06T21:23:17.200Z
 generator: Upptime <https://github.com/upptime/upptime>

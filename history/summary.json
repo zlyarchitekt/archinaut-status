@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/vquompeipxgkakdkhntv.supabase.co.ico",
     "slug": "serwer-licencji-supabase",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "98.84%",
+    "uptimeDay": "92.64%",
+    "uptimeWeek": "98.84%",
+    "uptimeMonth": "98.84%",
+    "uptimeYear": "98.84%",
     "time": 485,
     "timeDay": 1247,
     "timeWeek": 485,
     "timeMonth": 485,
     "timeYear": 485,
     "dailyMinutesDown": {
-      "2026-10-13": 0
+      "2026-10-13": 106
     }
   }
 ]

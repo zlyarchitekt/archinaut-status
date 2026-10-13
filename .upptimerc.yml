@@ -6,14 +6,13 @@ sites:
     url: https://archinaut.pl/
   - name: Serwer licencji (Supabase)
     url: https://vquompeipxgkakdkhntv.supabase.co/functions/v1/health
-  # odkomentować po wdrożeniu części 3 — bez logowania odpowiada 401, to znaczy że żyje
-  # - name: Bramka pobierania (download-link)
-  #   url: https://vquompeipxgkakdkhntv.supabase.co/functions/v1/download-link
-  #   expectedStatusCodes:
-  #     - 401
-  # odkomentować po wdrożeniu części 3 (oczekiwane 200)
-  # - name: Wersja wtyczki
-  #   url: https://archinaut.pl/wersja.json
+  # bez logowania odpowiada 401 — to znaczy, że żyje (włączone 2026-10-13, start 2.0.0)
+  - name: Bramka pobierania (download-link)
+    url: https://vquompeipxgkakdkhntv.supabase.co/functions/v1/download-link
+    expectedStatusCodes:
+      - 401
+  - name: Wersja wtyczki
+    url: https://archinaut.pl/wersja.json
 
 assignees:
   - zlyarchitekt
